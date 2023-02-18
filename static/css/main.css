@@ -1,4 +1,23 @@
-body {
-margin: 0;
-font-family: sans-serif;
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
 }
