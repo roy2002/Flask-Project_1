@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet' href="{{url_for('static', filename='css/main.css')}}">
+<!--<link rel='stylesheet' href="../../static/css/css.main">-->
+<head>
+    <meta charset="UTF-8">
+    {%block title%} {%endblock%}
+    <title>Base Template</title>
+    {% block head %}{% endblock %}
+</head>
+<body>
+
+    {% block body %}{% endblock %}
+
+</body>
+</html>
